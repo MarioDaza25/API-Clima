@@ -24,7 +24,7 @@ async function fetchData(latitud, longitud) {
       dataContainer.innerHTML = ''
       let contenidoTabla = `
         <div class="card">
-          <img src="./clima.avif" class="card-img-top" alt="...">
+          <img src="./imagenes/clima.avif" class="card-img-top" alt="clima">
           <div class="card-body">
             <h3>${data.name}</h3>
             <p class="card-text">

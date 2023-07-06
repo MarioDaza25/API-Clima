@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./climafondo.webp);
+    
+}
+
+h1{
+    background-color: red;
+    color:white;
+    height: 60px;
+    margin: auto;
+}
+
+.form-group {
+    margin-top: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding:5px;
+    
+}
+
+#data-container {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card {
+    width: 288px;
+    background-color:rgba(255, 255, 255, 0.44);
+}
+    
